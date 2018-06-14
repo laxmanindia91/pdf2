@@ -2,7 +2,11 @@
 <html>
 <head>
     <title>jsPDF</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<style>
 		@CHARSET "UTF-8";
 		.page-break {
@@ -47,9 +51,6 @@
 		</p>
 
 		<h2>Text Alignment</h2>
-		<div style='text-align: left'>left</div>
-		<div style='text-align: center'>center</div>
-		<div style='text-align: right'>right</div>
 		
 		<h1 style='page-break-before: always; margin-top:100px;'>Page Two</h1>
 		<p>
@@ -93,6 +94,33 @@
 		<p>
 			<span style='color: red'>red</span> <span style='color: rgb(0, 255, 0)'>rgb(0,255,0)</span> <span style='color: rgba(0, 0, 0, .5)'>rgba(0,0,0,.5)</span> <span style='color: #0000FF'>#0000FF</span> <span style='color: #0FF'>#0FF</span>
 		</p>
+		
+		<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
 
 		<h2>Text Alignment</h2>
 		<div style='text-align: left'>left</div>
